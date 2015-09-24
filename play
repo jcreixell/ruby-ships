@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+export JRUBY_OPTS=-J-Djava.library.path=lib/native/mac
+
+ruby game.rb
